@@ -1,0 +1,38 @@
+2018-04-02T08:58:23+00:00 CRITICAL Uncaught exception 'Exception' with message 'Неверное хранилище данных.' in C:\www\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:94
+Stack trace:
+#0 C:\www\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('product')
+#1 C:\www\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php(81): WC_Data_Store::load('product')
+#2 C:\www\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php(32): WC_Product_Factory::get_product_type(10)
+#3 C:\www\wp-content\plugins\woocommerce\includes\wc-product-functions.php(68): WC_Product_Factory->get_product(10, Array)
+#4 C:\www\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(754): wc_get_product(10)
+#5 [internal function]: WC_Form_Handler::add_to_cart_action('')
+#6 C:\www\wp-includes\class-wp-hook.php(286): call_user_func_array(Array, Array)
+#7 C:\www\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 C:\www\wp-includes\plugin.ph
+
+2018-04-02T08:59:12+00:00 CRITICAL Uncaught exception 'Exception' with message 'Неверное хранилище данных.' in C:\www\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:94
+Stack trace:
+#0 C:\www\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('product')
+#1 C:\www\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php(81): WC_Data_Store::load('product')
+#2 C:\www\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php(32): WC_Product_Factory::get_product_type(10)
+#3 C:\www\wp-content\plugins\woocommerce\includes\wc-product-functions.php(68): WC_Product_Factory->get_product(10, Array)
+#4 C:\www\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(754): wc_get_product(10)
+#5 [internal function]: WC_Form_Handler::add_to_cart_action('')
+#6 C:\www\wp-includes\class-wp-hook.php(286): call_user_func_array(Array, Array)
+#7 C:\www\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 C:\www\wp-includes\plugin.ph
+
+2018-04-02T08:59:17+00:00 CRITICAL Uncaught exception 'Exception' with message 'Неверное хранилище данных.' in C:\www\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:94
+Stack trace:
+#0 C:\www\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(129): WC_Data_Store->__construct('product')
+#1 C:\www\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php(81): WC_Data_Store::load('product')
+#2 C:\www\wp-content\plugins\woocommerce\includes\class-wc-product-factory.php(32): WC_Product_Factory::get_product_type(10)
+#3 C:\www\wp-content\plugins\woocommerce\includes\wc-product-functions.php(68): WC_Product_Factory->get_product(10, Array)
+#4 C:\www\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(754): wc_get_product(10)
+#5 [internal function]: WC_Form_Handler::add_to_cart_action('')
+#6 C:\www\wp-includes\class-wp-hook.php(286): call_user_func_array(Array, Array)
+#7 C:\www\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 C:\www\wp-includes\plugin.ph
+
+2018-04-02T09:47:40+00:00 CRITICAL Call to a member function get_id() on a non-object
+
