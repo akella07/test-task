@@ -23,10 +23,10 @@
 define('DB_NAME', 'tz');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'root');
+define('DB_USER', '');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'fahrenheit');
+define('DB_PASSWORD', '');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
